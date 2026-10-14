@@ -1,5 +1,7 @@
 # Bluetooth thermal printing: ESC/POS, column padding, chunked writes
 
+> From the carousel on Instagram: [Day 24, @_letsbuildapps](https://www.instagram.com/p/DdEli7wDJQm/)
+
 Three small pieces from the carousel, as plain Dart you can test without a printer.
 
 | File | What it does |

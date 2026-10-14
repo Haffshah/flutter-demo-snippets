@@ -1,5 +1,7 @@
 # Background GPS: poll smarter, upload in batches
 
+> From the carousel on Instagram: [Day 26, @_letsbuildapps](https://www.instagram.com/p/DdIqc9pDMHs/)
+
 Two of the three tips from the carousel, as plain Dart you can test without a phone.
 
 | Tip | File |

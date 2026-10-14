@@ -1,5 +1,7 @@
 # Flutter CI/CD: git tag to store (GitHub Actions + Fastlane)
 
+> From the carousel on Instagram: [Day 45, @_letsbuildapps](https://www.instagram.com/p/Dd5RDzmjLzo/)
+
 Push a tag like `v1.4.0` and the workflow runs five steps:
 
 1. **Quality gate** on a cheap Linux runner: `dart format`, `flutter analyze --fatal-warnings`, `flutter test --coverage`. Fail here before spending macOS minutes.

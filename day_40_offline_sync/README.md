@@ -1,5 +1,7 @@
 # Offline-first writes with a Drift outbox
 
+> From the carousel on Instagram: [Day 40, @_letsbuildapps](https://www.instagram.com/p/DdsSI5pDONB/)
+
 Offline-first doesn't mean always offline. It means the app writes locally first, shows the result immediately, and syncs when it can.
 
 ```

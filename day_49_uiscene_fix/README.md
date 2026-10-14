@@ -1,5 +1,7 @@
 # Flutter iOS: UIScene lifecycle migration
 
+> From the reel on Instagram: [Day 49, @_letsbuildapps](https://www.instagram.com/reel/DeDx7-KDJwP/)
+
 **Symptom:** the app crashes at launch on iOS with `SIGTRAP`, and the log mentions
 `UIApplicationEvaluateRuntimeIssueForNoSceneLifecycleAdoption`. Apple expects apps to adopt the UIScene lifecycle.
 

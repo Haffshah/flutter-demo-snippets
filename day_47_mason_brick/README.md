@@ -1,5 +1,7 @@
 # Mason brick: clean-architecture feature folder
 
+> From the reel on Instagram: [Day 47, @_letsbuildapps](https://www.instagram.com/reel/Dd-TvcmDBwd/)
+
 One command creates a feature with a domain contract, a data implementation, a BLoC (events, states, bloc) and a test, all named consistently.
 
 ## Use it

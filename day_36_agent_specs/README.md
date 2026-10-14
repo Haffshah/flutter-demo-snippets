@@ -1,5 +1,7 @@
 # AGENTS.md contract for AI coding agents
 
+> From the reel on Instagram: [Day 36, @_letsbuildapps](https://www.instagram.com/reel/Ddh7nQljHkK/)
+
 An agent does not need a longer prompt. It needs a contract it can read, and a check it must pass.
 
 | File | What it is |

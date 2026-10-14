@@ -1,5 +1,7 @@
 # Map markers: cluster in a background isolate, paint on one canvas
 
+> From the carousel on Instagram: [Day 3, @_letsbuildapps](https://www.instagram.com/p/DcNmeaamXWp/)
+
 Drawing thousands of marker widgets is slow. The carousel's approach has three parts, and this demo has code for each:
 
 | Carousel slide | In this demo |
