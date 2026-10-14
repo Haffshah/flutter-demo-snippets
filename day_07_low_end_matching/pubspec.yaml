@@ -1,0 +1,8 @@
+name: low_end_matching_demo
+description: Reusable frame buffers, cosine matching and Isolate offload for face matching on weak hardware. Pure Dart, no ML runtime.
+publish_to: none
+environment:
+  sdk: ^3.0.0
+dev_dependencies:
+  test: ^1.24.0
+  lints: ^4.0.0

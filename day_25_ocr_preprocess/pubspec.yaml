@@ -1,0 +1,8 @@
+name: ocr_preprocess_demo
+description: Perspective correction for a skewed card or receipt, and a regex parser for OCR text. Pure Dart, no OCR engine.
+publish_to: none
+environment:
+  sdk: ^3.0.0
+dev_dependencies:
+  test: ^1.24.0
+  lints: ^4.0.0

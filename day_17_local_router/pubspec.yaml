@@ -1,0 +1,8 @@
+name: local_router_demo
+description: Route simple AI tasks to an on-device model and complex reasoning to a cloud model. Pure Dart, no model included.
+publish_to: none
+environment:
+  sdk: ^3.0.0
+dev_dependencies:
+  test: ^1.24.0
+  lints: ^4.0.0
