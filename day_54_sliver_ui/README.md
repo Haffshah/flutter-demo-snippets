@@ -8,7 +8,7 @@ A small runnable Flutter example of the list-screen structure from the carousel:
 
 Because the first two slivers are pinned, search and filters stay on screen while the list scrolls under them.
 
-The colors live in [`lib/tokens.dart`](lib/tokens.dart): one brand yellow on dark surfaces, with coral for expired and green for used.
+The colors live in [`lib/theme.dart`](lib/theme.dart): one brand yellow on dark surfaces, with coral for expired and green for used.
 All data is fake.
 
 ## Run it

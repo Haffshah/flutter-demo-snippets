@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'tokens.dart';
+import 'theme.dart';
 
 void main() => runApp(const DemoApp());
 
