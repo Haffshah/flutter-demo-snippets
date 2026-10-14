@@ -1,0 +1,10 @@
+name: pos_sync_demo
+description: Append-only transaction ledger in SQLite, replayed in order on reconnect, versus overwriting stock.
+publish_to: none
+environment:
+  sdk: ^3.0.0
+dependencies:
+  sqlite3: ^2.4.0
+dev_dependencies:
+  test: ^1.24.0
+  lints: ^4.0.0

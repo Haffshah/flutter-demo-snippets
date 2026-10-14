@@ -1,0 +1,8 @@
+name: binarization_demo
+description: Adaptive thresholding of a grayscale image to 1-bit, with bit packing. Pure Dart.
+publish_to: none
+environment:
+  sdk: ^3.0.0
+dev_dependencies:
+  test: ^1.24.0
+  lints: ^4.0.0

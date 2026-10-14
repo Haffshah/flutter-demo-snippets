@@ -9,6 +9,11 @@ contain no keys or credentials, and carry no warranty. Check them against the cu
 
 | Folder | Post | What it is |
 |---|---|---|
+| [`day_03_map_markers`](day_03_map_markers) | Render 10,000+ map markers without lag | Grid clustering in a background isolate, 10% padded viewport, one-pass canvas painter, 9 tests |
+| [`day_24_thermal_print`](day_24_thermal_print) | Bluetooth thermal printing | ESC/POS bytes, safe column padding, 20-byte chunked writes, 10 tests |
+| [`day_26_background_gps`](day_26_background_gps) | Background GPS battery optimization | Speed-based polling policy and batched location uploads, 7 tests |
+| [`day_27_binarization`](day_27_binarization) | Adaptive binarization for scans | Adaptive thresholding to 1-bit plus bit packing, 7 tests |
+| [`day_31_pos_sync`](day_31_pos_sync) | Offline POS sync engine | Append-only SQLite ledger replayed in order, 6 tests |
 | [`day_36_agent_specs`](day_36_agent_specs) | Give your AI coding agent a contract | `AGENTS.md` template plus a boundary checker script, with tests |
 | [`day_40_offline_sync`](day_40_offline_sync) | Offline-first doesn't mean always offline | Drift outbox, retries, idempotency keys, conflict strategies, 8 tests |
 | [`day_42_pigeon`](day_42_pigeon) | MethodChannel vs Pigeon | Schema, generated Dart/Swift/Kotlin, Dart tests |

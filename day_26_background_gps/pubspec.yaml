@@ -1,0 +1,8 @@
+name: background_gps_demo
+description: Speed-based polling policy and batched location uploads. Pure Dart, no plugins.
+publish_to: none
+environment:
+  sdk: ^3.0.0
+dev_dependencies:
+  test: ^1.24.0
+  lints: ^4.0.0
