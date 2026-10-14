@@ -1,0 +1,13 @@
+name: pigeon_demo
+description: Type-safe Flutter-to-native calls with Pigeon, instead of string-matched MethodChannels.
+publish_to: none
+environment:
+  sdk: ^3.0.0
+dependencies:
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  pigeon: ^22.0.0

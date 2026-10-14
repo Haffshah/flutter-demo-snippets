@@ -1,0 +1,23 @@
+// EXAMPLE, NOT COMPILED HERE. Shows how to implement the generated interface on Android.
+// Register it with:
+//   BatteryApi.setUp(flutterEngine.dartExecutor.binaryMessenger, BatteryApiImpl(context))
+package dev.demo
+
+import android.content.Context
+import android.content.Intent
+import android.content.IntentFilter
+import android.os.BatteryManager
+
+class BatteryApiImpl(private val context: Context) : BatteryApi {
+  override fun getBatteryLevel(): Long {
+    val bm = context.getSystemService(Context.BATTERY_SERVICE) as BatteryManager
+    return bm.getIntProperty(BatteryManager.BATTERY_PROPERTY_CAPACITY).toLong()
+  }
+
+  override fun getBatteryInfo(): BatteryInfo {
+    val status = context.registerReceiver(null, IntentFilter(Intent.ACTION_BATTERY_CHANGED))
+      ?.getIntExtra(BatteryManager.EXTRA_STATUS, -1) ?: -1
+    val charging = status == BatteryManager.BATTERY_STATUS_CHARGING || status == BatteryManager.BATTERY_STATUS_FULL
+    return BatteryInfo(level = getBatteryLevel(), isCharging = charging)
+  }
+}

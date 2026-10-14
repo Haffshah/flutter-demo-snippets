@@ -9,6 +9,11 @@ contain no keys or credentials, and carry no warranty. Check them against the cu
 
 | Folder | Post | What it is |
 |---|---|---|
+| [`day_36_agent_specs`](day_36_agent_specs) | Give your AI coding agent a contract | `AGENTS.md` template plus a boundary checker script, with tests |
+| [`day_40_offline_sync`](day_40_offline_sync) | Offline-first doesn't mean always offline | Drift outbox, retries, idempotency keys, conflict strategies, 8 tests |
+| [`day_42_pigeon`](day_42_pigeon) | MethodChannel vs Pigeon | Schema, generated Dart/Swift/Kotlin, Dart tests |
+| [`day_45_cicd`](day_45_cicd) | Flutter CI/CD: git tag to store | GitHub Actions workflow + Fastlane lane (template, not run against a store account) |
+| [`day_47_mason_brick`](day_47_mason_brick) | Stop copy-pasting feature folders | Mason brick for a clean-architecture feature with BLoC and a test |
 | [`day_49_uiscene_fix`](day_49_uiscene_fix) | Fix the Flutter iOS startup crash (UIScene) | Info.plist + AppDelegate migration, and an AI prompt |
 | [`day_53_hybrid_scanner`](day_53_hybrid_scanner) | Scanner pipeline: local parse + AI fusion | Runnable Dart demo with tests (no Flutter needed) |
 | [`day_54_sliver_ui`](day_54_sliver_ui) | App screens carousel | Pinned app bar + pinned search header + list, as a runnable Flutter example |

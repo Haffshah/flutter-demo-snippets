@@ -1,0 +1,19 @@
+// EXAMPLE, NOT COMPILED HERE. Shows how to implement the generated protocol on iOS.
+// Register it in your plugin or AppDelegate with:
+//   BatteryApiSetup.setUp(binaryMessenger: messenger, api: BatteryApiImpl())
+import UIKit
+
+class BatteryApiImpl: BatteryApi {
+  init() { UIDevice.current.isBatteryMonitoringEnabled = true }
+
+  func getBatteryLevel() throws -> Int64 {
+    Int64(max(0, UIDevice.current.batteryLevel) * 100)
+  }
+
+  func getBatteryInfo() throws -> BatteryInfo {
+    BatteryInfo(
+      level: try getBatteryLevel(),
+      isCharging: UIDevice.current.batteryState == .charging || UIDevice.current.batteryState == .full
+    )
+  }
+}

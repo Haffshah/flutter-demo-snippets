@@ -1,0 +1,11 @@
+name: feature_brick
+description: Clean-architecture feature folder (domain, data, presentation with BLoC, and a test).
+version: 0.1.0
+environment:
+  mason: ">=0.1.0-dev.50 <0.1.0"
+vars:
+  name:
+    type: string
+    description: Feature name, for example auth or checkout
+    default: auth
+    prompt: What is the feature name?

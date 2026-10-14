@@ -1,0 +1,13 @@
+name: offline_sync_demo
+description: Offline-first write path with a Drift outbox, retries, idempotency keys and conflict strategies. Pure Dart.
+publish_to: none
+environment:
+  sdk: ^3.0.0
+dependencies:
+  drift: ^2.20.0
+  sqlite3: ^2.4.0
+dev_dependencies:
+  build_runner: ^2.4.0
+  drift_dev: ^2.20.0
+  test: ^1.24.0
+  lints: ^4.0.0
