@@ -1,6 +1,8 @@
 # Offline POS: append-only ledger, replayed on reconnect
 
-> From the reel on Instagram: [Day 31, @_letsbuildapps](https://www.instagram.com/reel/DdVN5aKDDPF/)
+<p align="center"><a href="https://www.instagram.com/reel/DdVN5aKDDPF/"><img src="docs/instagram_post.jpg" alt="Cover of the Day 31 Instagram reel by @_letsbuildapps" width="320"></a></p>
+
+> The original reel on Instagram: [Day 31, @_letsbuildapps](https://www.instagram.com/reel/DdVN5aKDDPF/)
 
 **The trap:** two registers are offline and each sells the last-but-few of an item. Each one only knows "stock is now 4". When the network returns and both push "stock = 4", one sale is lost.
 

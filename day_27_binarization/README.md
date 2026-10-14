@@ -1,6 +1,8 @@
 # Adaptive binarization: gray page to 1-bit
 
-> From the reel on Instagram: [Day 27, @_letsbuildapps](https://www.instagram.com/reel/DdLBm05DMMZ/)
+<p align="center"><a href="https://www.instagram.com/reel/DdLBm05DMMZ/"><img src="docs/instagram_post.jpg" alt="Cover of the Day 27 Instagram reel by @_letsbuildapps" width="320"></a></p>
+
+> The original reel on Instagram: [Day 27, @_letsbuildapps](https://www.instagram.com/reel/DdLBm05DMMZ/)
 
 A photo of a page is mostly shades of gray, with uneven light and shadows. Turning it into pure black and white has two parts: deciding which pixels are ink, then storing 1 bit per pixel instead of 8.
 

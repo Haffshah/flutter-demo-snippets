@@ -1,6 +1,8 @@
 # Background GPS: poll smarter, upload in batches
 
-> From the carousel on Instagram: [Day 26, @_letsbuildapps](https://www.instagram.com/p/DdIqc9pDMHs/)
+<p align="center"><a href="https://www.instagram.com/p/DdIqc9pDMHs/"><img src="docs/instagram_post.jpg" alt="Cover of the Day 26 Instagram carousel by @_letsbuildapps" width="320"></a></p>
+
+> The original carousel on Instagram: [Day 26, @_letsbuildapps](https://www.instagram.com/p/DdIqc9pDMHs/)
 
 Two of the three tips from the carousel, as plain Dart you can test without a phone.
 

@@ -1,6 +1,8 @@
 # Layered scan pipeline: local parse + AI fusion
 
-> From the carousel on Instagram: [Day 53, @_letsbuildapps](https://www.instagram.com/p/DeQVVaHjMmX/)
+<p align="center"><a href="https://www.instagram.com/p/DeQVVaHjMmX/"><img src="docs/instagram_post.jpg" alt="Cover of the Day 53 Instagram carousel by @_letsbuildapps" width="320"></a></p>
+
+> The original carousel on Instagram: [Day 53, @_letsbuildapps](https://www.instagram.com/p/DeQVVaHjMmX/)
 
 A small, runnable Dart demo of the pipeline idea behind a coupon-screenshot scanner.
 It uses fake OCR and a fake AI, so it needs **no keys, no network and no Flutter**.

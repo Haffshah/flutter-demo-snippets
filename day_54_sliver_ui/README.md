@@ -1,6 +1,8 @@
 # Pinned sliver layout: app bar, search header, list
 
-> From the carousel on Instagram: [Day 54, @_letsbuildapps](https://www.instagram.com/p/DeOFKPAGXB2/)
+<p align="center"><a href="https://www.instagram.com/p/DeOFKPAGXB2/"><img src="docs/instagram_post.jpg" alt="Cover of the Day 54 Instagram carousel by @_letsbuildapps" width="320"></a></p>
+
+> The original carousel on Instagram: [Day 54, @_letsbuildapps](https://www.instagram.com/p/DeOFKPAGXB2/)
 
 A small runnable Flutter example of the list-screen structure from the carousel:
 

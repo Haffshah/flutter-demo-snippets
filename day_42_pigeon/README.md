@@ -1,6 +1,8 @@
 # Pigeon: type-safe Flutter to native calls
 
-> From the reel on Instagram: [Day 42, @_letsbuildapps](https://www.instagram.com/reel/Ddwylb4jGOp/)
+<p align="center"><a href="https://www.instagram.com/reel/Ddwylb4jGOp/"><img src="docs/instagram_post.jpg" alt="Cover of the Day 42 Instagram reel by @_letsbuildapps" width="320"></a></p>
+
+> The original reel on Instagram: [Day 42, @_letsbuildapps](https://www.instagram.com/reel/Ddwylb4jGOp/)
 
 With a plain `MethodChannel` you coordinate channel and method names as strings in Dart, Swift and Kotlin.
 A typo shows up at runtime as `MissingPluginException`. With Pigeon you write the API once in Dart and generate all three sides.
