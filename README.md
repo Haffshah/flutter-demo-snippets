@@ -4,7 +4,7 @@ Small, generic demos that go with the posts on [@_letsbuildapps](https://www.ins
 Each folder is self-contained, has its own README, and contains only the part that matters for the post.
 Find yours at [haffshah.github.io/portfolio/resources.html](https://haffshah.github.io/portfolio/resources.html).
 
-These are written for learning and review. They are **not** copies of any production or client app,
+Licensed under the [MIT License](LICENSE). These are written for learning and review. They are **not** copies of any production or client app,
 contain no keys or credentials, and carry no warranty. Check them against the current docs for your SDK versions.
 
 | Folder | Post | What it is |
