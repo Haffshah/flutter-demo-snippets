@@ -1,0 +1,14 @@
+name: comparison_matrix_demo
+description: Mobile comparison table with a pinned header, a fixed label column and synchronized horizontal scrolling.
+publish_to: none
+environment:
+  sdk: ^3.0.0
+dependencies:
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+flutter:
+  uses-material-design: true

@@ -9,11 +9,16 @@ contain no keys or credentials, and carry no warranty. Check them against the cu
 
 | Folder | Instagram post | What it is |
 |---|---|---|
+| [`day_01_math_solver`](day_01_math_solver) | [On-device math solving](https://www.instagram.com/p/DcJMd8fDEKm/) | Symbolic solver (arithmetic, linear, quadratic) with an LLM fallback router, 9 tests |
+| [`day_02_chat_battery`](day_02_chat_battery) | [Why real-time chats drain battery](https://www.instagram.com/p/DcLuXtPDGB6/) | Adaptive WebSocket heartbeat and reconnect backoff with jitter, 10 tests |
 | [`day_03_map_markers`](day_03_map_markers) | [Render 10,000+ map markers without lag](https://www.instagram.com/p/DcNmeaamXWp/) | Grid clustering in a background isolate, 10% padded viewport, one-pass canvas painter, 9 tests |
+| [`day_06_offline_geofence`](day_06_offline_geofence) | [Offline geofence safety alerts](https://www.instagram.com/p/DcVYUIcjLbC/) | Ray casting, GeoJSON zones and enter/exit events, 7 tests |
 | [`day_24_thermal_print`](day_24_thermal_print) | [Bluetooth thermal printing](https://www.instagram.com/p/DdEli7wDJQm/) | ESC/POS bytes, safe column padding, 20-byte chunked writes, 10 tests |
 | [`day_26_background_gps`](day_26_background_gps) | [Background GPS battery optimization](https://www.instagram.com/p/DdIqc9pDMHs/) | Speed-based polling policy and batched location uploads, 7 tests |
 | [`day_27_binarization`](day_27_binarization) | [Adaptive binarization for scans](https://www.instagram.com/reel/DdLBm05DMMZ/) | Adaptive thresholding to 1-bit plus bit packing, 7 tests |
+| [`day_30_comparison_matrix`](day_30_comparison_matrix) | [Mobile-first comparison matrix](https://www.instagram.com/p/DdSv86lDKlU/) | Pinned header, fixed labels and synced scrolling, 6 tests |
 | [`day_31_pos_sync`](day_31_pos_sync) | [Offline POS sync engine](https://www.instagram.com/reel/DdVN5aKDDPF/) | Append-only SQLite ledger replayed in order, 6 tests |
+| [`day_32_adaptive_stream`](day_32_adaptive_stream) | [Adaptive RTMP streaming](https://www.instagram.com/p/DdYAW6EGf7m/) | Drop video quality when the send queue backs up, then recover, 6 tests |
 | [`day_36_agent_specs`](day_36_agent_specs) | [Give your AI coding agent a contract](https://www.instagram.com/reel/Ddh7nQljHkK/) | `AGENTS.md` template plus a boundary checker script, with tests |
 | [`day_40_offline_sync`](day_40_offline_sync) | [Offline-first doesn't mean always offline](https://www.instagram.com/p/DdsSI5pDONB/) | Drift outbox, retries, idempotency keys, conflict strategies, 8 tests |
 | [`day_42_pigeon`](day_42_pigeon) | [MethodChannel vs Pigeon](https://www.instagram.com/reel/Ddwylb4jGOp/) | Schema, generated Dart/Swift/Kotlin, Dart tests |
