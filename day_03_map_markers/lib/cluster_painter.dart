@@ -9,10 +9,13 @@ import 'cluster_engine.dart';
 /// [viewport] is the map area being shown. Positions use a simple linear mapping from latitude and
 /// longitude to pixels, which is fine for a demo. A real map gives you its own projection.
 class ClusterPainter extends CustomPainter {
-  ClusterPainter({required this.clusters, required this.viewport});
+  ClusterPainter({required this.clusters, required this.viewport, this.fontFamily});
 
   final List<ClusterNode> clusters;
   final BoundingBox viewport;
+
+  /// Font for the count labels. Leave null for the platform default, or pass your app's font.
+  final String? fontFamily;
 
   @override
   void paint(Canvas canvas, Size size) {
@@ -36,7 +39,7 @@ class ClusterPainter extends CustomPainter {
         final text = TextPainter(
           text: TextSpan(
             text: '${c.count}',
-            style: const TextStyle(color: Colors.white, fontSize: 11, fontWeight: FontWeight.w700),
+            style: TextStyle(color: Colors.white, fontSize: 11, fontWeight: FontWeight.w700, fontFamily: fontFamily),
           ),
           textDirection: TextDirection.ltr,
         )..layout();

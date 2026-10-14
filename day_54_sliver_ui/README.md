@@ -11,6 +11,10 @@ Because the first two slivers are pinned, search and filters stay on screen whil
 The colors live in [`lib/theme.dart`](lib/theme.dart): one brand yellow on dark surfaces, with coral for expired and green for used.
 All data is fake.
 
+<p align="center"><img src="docs/screenshot.png" alt="The demo: My Coupons screen with a pinned search field, status chips and a list of coupon cards" width="300"></p>
+
+*Rendered from this demo's fake data by [`test/screenshot_test.dart`](test/screenshot_test.dart). Regenerate with `SCREENSHOT=1 flutter test test/screenshot_test.dart`.*
+
 ## Run it
 
 This folder has no platform folders. Generate them once, then run:

@@ -19,7 +19,13 @@ class Tokens {
         brightness: Brightness.dark,
         useMaterial3: true,
         scaffoldBackgroundColor: bgDark,
-        colorScheme: const ColorScheme.dark(primary: brandYellow, surface: surfaceDark),
+        // Selected chips use secondaryContainer / onSecondaryContainer, so set them to brand yellow on dark.
+        colorScheme: const ColorScheme.dark(
+          primary: brandYellow,
+          surface: surfaceDark,
+          secondaryContainer: brandYellow,
+          onSecondaryContainer: bgDark,
+        ),
         appBarTheme: const AppBarTheme(backgroundColor: bgDark, elevation: 0, centerTitle: true),
       );
 }

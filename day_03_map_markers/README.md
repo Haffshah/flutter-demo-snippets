@@ -10,8 +10,12 @@ Drawing thousands of marker widgets is slow. The carousel's approach has three p
 
 ```bash
 flutter pub get
-flutter test    # 9 tests
+flutter test    # 9 tests (+1 screenshot test, skipped unless SCREENSHOT=1)
 ```
+
+<p align="center"><img src="docs/screenshot.png" alt="ClusterPainter output: green numbered circles on a light background, with large clusters in three dense areas" width="320"></p>
+
+*10,000 synthetic markers at zoom 6 became 72 circles in this seeded run. Rendered by [`test/screenshot_test.dart`](test/screenshot_test.dart), which you can re-run with `SCREENSHOT=1 flutter test test/screenshot_test.dart`. This is not a map and not a performance measurement.*
 
 ## How it works
 
